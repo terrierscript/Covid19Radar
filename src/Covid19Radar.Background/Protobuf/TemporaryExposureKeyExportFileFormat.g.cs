@@ -28,30 +28,28 @@ namespace Covid19Radar.Background.Protobuf
         {
             byte[] descriptorData = global::System.Convert.FromBase64String(
                 string.Concat(
-                  "CipUZW1wb3JhcnlFeHBvc3VyZUtleUV4cG9ydEZpbGVGb3JtYXQucHJvdG8S",
-                  "D2dvb2dsZS5wcm90b2J1ZiLxAQoaVGVtcG9yYXJ5RXhwb3N1cmVLZXlFeHBv",
-                  "cnQSFwoPc3RhcnRfdGltZXN0YW1wGAEgASgGEhUKDWVuZF90aW1lc3RhbXAY",
-                  "AiABKAYSDgoGcmVnaW9uGAMgASgJEhEKCWJhdGNoX251bRgEIAEoBRISCgpi",
-                  "YXRjaF9zaXplGAUgASgFEjcKD3NpZ25hdHVyZV9pbmZvcxgGIAMoCzIeLmdv",
-                  "b2dsZS5wcm90b2J1Zi5TaWduYXR1cmVJbmZvEjMKBGtleXMYByADKAsyJS5n",
-                  "b29nbGUucHJvdG9idWYuVGVtcG9yYXJ5RXhwb3N1cmVLZXkimwEKDVNpZ25h",
-                  "dHVyZUluZm8SFQoNYXBwX2J1bmRsZV9pZBgBIAEoCRIXCg9hbmRyb2lkX3Bh",
-                  "Y2thZ2UYAiABKAkSIAoYdmVyaWZpY2F0aW9uX2tleV92ZXJzaW9uGAMgASgJ",
-                  "EhsKE3ZlcmlmaWNhdGlvbl9rZXlfaWQYBCABKAkSGwoTc2lnbmF0dXJlX2Fs",
-                  "Z29yaXRobRgFIAEoCSKNAQoUVGVtcG9yYXJ5RXhwb3N1cmVLZXkSEAoIa2V5",
-                  "X2RhdGEYASABKAwSHwoXdHJhbnNtaXNzaW9uX3Jpc2tfbGV2ZWwYAiABKAUS",
-                  "JQodcm9sbGluZ19zdGFydF9pbnRlcnZhbF9udW1iZXIYAyABKAUSGwoOcm9s",
-                  "bGluZ19wZXJpb2QYBCABKAU6AzE0NCJFChBURUtTaWduYXR1cmVMaXN0EjEK",
-                  "CnNpZ25hdHVyZXMYASADKAsyHS5nb29nbGUucHJvdG9idWYuVEVLU2lnbmF0",
-                  "dXJlIoABCgxURUtTaWduYXR1cmUSNgoOc2lnbmF0dXJlX2luZm8YASABKAsy",
-                  "Hi5nb29nbGUucHJvdG9idWYuU2lnbmF0dXJlSW5mbxIRCgliYXRjaF9udW0Y",
-                  "AiABKAUSEgoKYmF0Y2hfc2l6ZRgDIAEoBRIRCglzaWduYXR1cmUYBCABKAxC",
-                  "I6oCIENvdmlkMTlSYWRhci5CYWNrZ3JvdW5kLlByb3RvYnVm"));
+                  "CipUZW1wb3JhcnlFeHBvc3VyZUtleUV4cG9ydEZpbGVGb3JtYXQucHJvdG8i",
+                  "0QEKGlRlbXBvcmFyeUV4cG9zdXJlS2V5RXhwb3J0EhcKD3N0YXJ0X3RpbWVz",
+                  "dGFtcBgBIAEoBhIVCg1lbmRfdGltZXN0YW1wGAIgASgGEg4KBnJlZ2lvbhgD",
+                  "IAEoCRIRCgliYXRjaF9udW0YBCABKAUSEgoKYmF0Y2hfc2l6ZRgFIAEoBRIn",
+                  "Cg9zaWduYXR1cmVfaW5mb3MYBiADKAsyDi5TaWduYXR1cmVJbmZvEiMKBGtl",
+                  "eXMYByADKAsyFS5UZW1wb3JhcnlFeHBvc3VyZUtleSKXAQoNU2lnbmF0dXJl",
+                  "SW5mbxIgChh2ZXJpZmljYXRpb25fa2V5X3ZlcnNpb24YAyABKAkSGwoTdmVy",
+                  "aWZpY2F0aW9uX2tleV9pZBgEIAEoCRIbChNzaWduYXR1cmVfYWxnb3JpdGht",
+                  "GAUgASgJSgQIARACSgQIAhADUg1hcHBfYnVuZGxlX2lkUg9hbmRyb2lkX3Bh",
+                  "Y2thZ2UijQEKFFRlbXBvcmFyeUV4cG9zdXJlS2V5EhAKCGtleV9kYXRhGAEg",
+                  "ASgMEh8KF3RyYW5zbWlzc2lvbl9yaXNrX2xldmVsGAIgASgFEiUKHXJvbGxp",
+                  "bmdfc3RhcnRfaW50ZXJ2YWxfbnVtYmVyGAMgASgFEhsKDnJvbGxpbmdfcGVy",
+                  "aW9kGAQgASgFOgMxNDQiNQoQVEVLU2lnbmF0dXJlTGlzdBIhCgpzaWduYXR1",
+                  "cmVzGAEgAygLMg0uVEVLU2lnbmF0dXJlInAKDFRFS1NpZ25hdHVyZRImCg5z",
+                  "aWduYXR1cmVfaW5mbxgBIAEoCzIOLlNpZ25hdHVyZUluZm8SEQoJYmF0Y2hf",
+                  "bnVtGAIgASgFEhIKCmJhdGNoX3NpemUYAyABKAUSEQoJc2lnbmF0dXJlGAQg",
+                  "ASgMQiOqAiBDb3ZpZDE5UmFkYXIuQmFja2dyb3VuZC5Qcm90b2J1Zg=="));
             descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
                 new pbr::FileDescriptor[] { },
                 new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Covid19Radar.Background.Protobuf.TemporaryExposureKeyExport), global::Covid19Radar.Background.Protobuf.TemporaryExposureKeyExport.Parser, new[]{ "StartTimestamp", "EndTimestamp", "Region", "BatchNum", "BatchSize", "SignatureInfos", "Keys" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Covid19Radar.Background.Protobuf.SignatureInfo), global::Covid19Radar.Background.Protobuf.SignatureInfo.Parser, new[]{ "AppBundleId", "AndroidPackage", "VerificationKeyVersion", "VerificationKeyId", "SignatureAlgorithm" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Covid19Radar.Background.Protobuf.SignatureInfo), global::Covid19Radar.Background.Protobuf.SignatureInfo.Parser, new[]{ "VerificationKeyVersion", "VerificationKeyId", "SignatureAlgorithm" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Covid19Radar.Background.Protobuf.TemporaryExposureKey), global::Covid19Radar.Background.Protobuf.TemporaryExposureKey.Parser, new[]{ "KeyData", "TransmissionRiskLevel", "RollingStartIntervalNumber", "RollingPeriod" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Covid19Radar.Background.Protobuf.TEKSignatureList), global::Covid19Radar.Background.Protobuf.TEKSignatureList.Parser, new[]{ "Signatures" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Covid19Radar.Background.Protobuf.TEKSignature), global::Covid19Radar.Background.Protobuf.TEKSignature.Parser, new[]{ "SignatureInfo", "BatchNum", "BatchSize", "Signature" }, null, null, null, null)
@@ -61,6 +59,16 @@ namespace Covid19Radar.Background.Protobuf
 
     }
     #region Messages
+    /// <summary>
+    /// Protobuf definition for exports of confirmed temporary exposure keys.
+    ///
+    /// The full file format is documented under "Exposure Key Export File Format
+    /// and Verification" at https://www.google.com/covid19/exposurenotifications/
+    ///
+    /// These files have a 16-byte, space-padded header before the protobuf data
+    /// starts. They will be contained in a zip archive, alongside a signature
+    /// file verifying the contents.
+    /// </summary>
     public sealed partial class TemporaryExposureKeyExport : pb::IMessage<TemporaryExposureKeyExport>
     {
         private static readonly pb::MessageParser<TemporaryExposureKeyExport> _parser = new pb::MessageParser<TemporaryExposureKeyExport>(() => new TemporaryExposureKeyExport());
@@ -115,7 +123,8 @@ namespace Covid19Radar.Background.Protobuf
 
         private ulong startTimestamp_;
         /// <summary>
-        /// Time window of keys in this batch based on arrival to server, in UTC seconds
+        /// Time window of keys in this file based on arrival to server, in UTC
+        /// seconds
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public ulong StartTimestamp
@@ -204,7 +213,8 @@ namespace Covid19Radar.Background.Protobuf
 
         private int batchNum_;
         /// <summary>
-        /// E.g., File 2 in batch size of 10. Ordinal, 1-based numbering.
+        /// E.g., Batch 2 of 10. Ordinal, 1-based numbering.
+        /// Note: Not yet supported on iOS. Use values of 1 for both.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public int BatchNum
@@ -263,7 +273,7 @@ namespace Covid19Radar.Background.Protobuf
             = pb::FieldCodec.ForMessage(50, global::Covid19Radar.Background.Protobuf.SignatureInfo.Parser);
         private readonly pbc::RepeatedField<global::Covid19Radar.Background.Protobuf.SignatureInfo> signatureInfos_ = new pbc::RepeatedField<global::Covid19Radar.Background.Protobuf.SignatureInfo>();
         /// <summary>
-        /// Information about associated signatures
+        /// Information about signatures
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public pbc::RepeatedField<global::Covid19Radar.Background.Protobuf.SignatureInfo> SignatureInfos
@@ -519,8 +529,6 @@ namespace Covid19Radar.Background.Protobuf
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public SignatureInfo(SignatureInfo other) : this()
         {
-            appBundleId_ = other.appBundleId_;
-            androidPackage_ = other.androidPackage_;
             verificationKeyVersion_ = other.verificationKeyVersion_;
             verificationKeyId_ = other.verificationKeyId_;
             signatureAlgorithm_ = other.signatureAlgorithm_;
@@ -533,66 +541,6 @@ namespace Covid19Radar.Background.Protobuf
             return new SignatureInfo(this);
         }
 
-        /// <summary>Field number for the "app_bundle_id" field.</summary>
-        public const int AppBundleIdFieldNumber = 1;
-        private readonly static string AppBundleIdDefaultValue = "";
-
-        private string appBundleId_;
-        /// <summary>
-        /// Apple App Store Application Bundle ID
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string AppBundleId
-        {
-            get { return appBundleId_ ?? AppBundleIdDefaultValue; }
-            set
-            {
-                appBundleId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-            }
-        }
-        /// <summary>Gets whether the "app_bundle_id" field is set</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public bool HasAppBundleId
-        {
-            get { return appBundleId_ != null; }
-        }
-        /// <summary>Clears the value of the "app_bundle_id" field</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void ClearAppBundleId()
-        {
-            appBundleId_ = null;
-        }
-
-        /// <summary>Field number for the "android_package" field.</summary>
-        public const int AndroidPackageFieldNumber = 2;
-        private readonly static string AndroidPackageDefaultValue = "";
-
-        private string androidPackage_;
-        /// <summary>
-        /// Android App package name
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string AndroidPackage
-        {
-            get { return androidPackage_ ?? AndroidPackageDefaultValue; }
-            set
-            {
-                androidPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-            }
-        }
-        /// <summary>Gets whether the "android_package" field is set</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public bool HasAndroidPackage
-        {
-            get { return androidPackage_ != null; }
-        }
-        /// <summary>Clears the value of the "android_package" field</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void ClearAndroidPackage()
-        {
-            androidPackage_ = null;
-        }
-
         /// <summary>Field number for the "verification_key_version" field.</summary>
         public const int VerificationKeyVersionFieldNumber = 3;
         private readonly static string VerificationKeyVersionDefaultValue = "";
@@ -600,6 +548,7 @@ namespace Covid19Radar.Background.Protobuf
         private string verificationKeyVersion_;
         /// <summary>
         /// Key version for rollovers
+        /// Must be in character class [a-zA-Z0-9_]. E.g., 'v1'
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string VerificationKeyVersion
@@ -629,8 +578,9 @@ namespace Covid19Radar.Background.Protobuf
 
         private string verificationKeyId_;
         /// <summary>
-        /// Additional identifying information
-        /// E.g., backend might serve app in different countries with different keys
+        /// Alias with which to identify public key to be used for verification
+        /// Must be in character class [a-zA-Z0-9_]
+        /// For cross-compatibility with Apple, use MCC (https://en.wikipedia.org/wiki/Mobile_country_code)
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string VerificationKeyId
@@ -660,7 +610,8 @@ namespace Covid19Radar.Background.Protobuf
 
         private string signatureAlgorithm_;
         /// <summary>
-        /// E.g. ECDSA using a p-256 curve and SHA-256 as a hash function
+        /// ASN.1 OID for Algorithm Identifier. Supported algorithms are
+        /// either 1.2.840.10045.4.3.2 or 1.2.840.10045.4.3.4
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string SignatureAlgorithm
@@ -701,8 +652,6 @@ namespace Covid19Radar.Background.Protobuf
             {
                 return true;
             }
-            if (AppBundleId != other.AppBundleId) return false;
-            if (AndroidPackage != other.AndroidPackage) return false;
             if (VerificationKeyVersion != other.VerificationKeyVersion) return false;
             if (VerificationKeyId != other.VerificationKeyId) return false;
             if (SignatureAlgorithm != other.SignatureAlgorithm) return false;
@@ -713,8 +662,6 @@ namespace Covid19Radar.Background.Protobuf
         public override int GetHashCode()
         {
             int hash = 1;
-            if (HasAppBundleId) hash ^= AppBundleId.GetHashCode();
-            if (HasAndroidPackage) hash ^= AndroidPackage.GetHashCode();
             if (HasVerificationKeyVersion) hash ^= VerificationKeyVersion.GetHashCode();
             if (HasVerificationKeyId) hash ^= VerificationKeyId.GetHashCode();
             if (HasSignatureAlgorithm) hash ^= SignatureAlgorithm.GetHashCode();
@@ -734,16 +681,6 @@ namespace Covid19Radar.Background.Protobuf
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public void WriteTo(pb::CodedOutputStream output)
         {
-            if (HasAppBundleId)
-            {
-                output.WriteRawTag(10);
-                output.WriteString(AppBundleId);
-            }
-            if (HasAndroidPackage)
-            {
-                output.WriteRawTag(18);
-                output.WriteString(AndroidPackage);
-            }
             if (HasVerificationKeyVersion)
             {
                 output.WriteRawTag(26);
@@ -769,14 +706,6 @@ namespace Covid19Radar.Background.Protobuf
         public int CalculateSize()
         {
             int size = 0;
-            if (HasAppBundleId)
-            {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(AppBundleId);
-            }
-            if (HasAndroidPackage)
-            {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(AndroidPackage);
-            }
             if (HasVerificationKeyVersion)
             {
                 size += 1 + pb::CodedOutputStream.ComputeStringSize(VerificationKeyVersion);
@@ -802,14 +731,6 @@ namespace Covid19Radar.Background.Protobuf
             if (other == null)
             {
                 return;
-            }
-            if (other.HasAppBundleId)
-            {
-                AppBundleId = other.AppBundleId;
-            }
-            if (other.HasAndroidPackage)
-            {
-                AndroidPackage = other.AndroidPackage;
             }
             if (other.HasVerificationKeyVersion)
             {
@@ -837,16 +758,6 @@ namespace Covid19Radar.Background.Protobuf
                     default:
                         _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                         break;
-                    case 10:
-                        {
-                            AppBundleId = input.ReadString();
-                            break;
-                        }
-                    case 18:
-                        {
-                            AndroidPackage = input.ReadString();
-                            break;
-                        }
                     case 26:
                         {
                             VerificationKeyVersion = input.ReadString();
@@ -949,7 +860,7 @@ namespace Covid19Radar.Background.Protobuf
 
         private int transmissionRiskLevel_;
         /// <summary>
-        /// Varying risk associated with a key depending on diagnosis method
+        /// Varying risks associated with exposure depending on type of verification
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public int TransmissionRiskLevel
@@ -1377,7 +1288,7 @@ namespace Covid19Radar.Background.Protobuf
         public TEKSignature(TEKSignature other) : this()
         {
             _hasBits0 = other._hasBits0;
-            signatureInfo_ = other.HasSignatureInfo ? other.signatureInfo_.Clone() : null;
+            signatureInfo_ = other.signatureInfo_ != null ? other.signatureInfo_.Clone() : null;
             batchNum_ = other.batchNum_;
             batchSize_ = other.batchSize_;
             signature_ = other.signature_;
@@ -1405,18 +1316,6 @@ namespace Covid19Radar.Background.Protobuf
                 signatureInfo_ = value;
             }
         }
-        /// <summary>Gets whether the signature_info field is set</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public bool HasSignatureInfo
-        {
-            get { return signatureInfo_ != null; }
-        }
-        /// <summary>Clears the value of the signature_info field</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void ClearSignatureInfo()
-        {
-            signatureInfo_ = null;
-        }
 
         /// <summary>Field number for the "batch_num" field.</summary>
         public const int BatchNumFieldNumber = 2;
@@ -1424,7 +1323,6 @@ namespace Covid19Radar.Background.Protobuf
 
         private int batchNum_;
         /// <summary>
-        /// E.g., File 2 in batch size of 10. Ordinal, 1-based numbering.
         /// E.g., Batch 2 of 10
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1536,7 +1434,7 @@ namespace Covid19Radar.Background.Protobuf
         public override int GetHashCode()
         {
             int hash = 1;
-            if (HasSignatureInfo) hash ^= SignatureInfo.GetHashCode();
+            if (signatureInfo_ != null) hash ^= SignatureInfo.GetHashCode();
             if (HasBatchNum) hash ^= BatchNum.GetHashCode();
             if (HasBatchSize) hash ^= BatchSize.GetHashCode();
             if (HasSignature) hash ^= Signature.GetHashCode();
@@ -1556,7 +1454,7 @@ namespace Covid19Radar.Background.Protobuf
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public void WriteTo(pb::CodedOutputStream output)
         {
-            if (HasSignatureInfo)
+            if (signatureInfo_ != null)
             {
                 output.WriteRawTag(10);
                 output.WriteMessage(SignatureInfo);
@@ -1586,7 +1484,7 @@ namespace Covid19Radar.Background.Protobuf
         public int CalculateSize()
         {
             int size = 0;
-            if (HasSignatureInfo)
+            if (signatureInfo_ != null)
             {
                 size += 1 + pb::CodedOutputStream.ComputeMessageSize(SignatureInfo);
             }
@@ -1616,9 +1514,9 @@ namespace Covid19Radar.Background.Protobuf
             {
                 return;
             }
-            if (other.HasSignatureInfo)
+            if (other.signatureInfo_ != null)
             {
-                if (!HasSignatureInfo)
+                if (signatureInfo_ == null)
                 {
                     SignatureInfo = new global::Covid19Radar.Background.Protobuf.SignatureInfo();
                 }
@@ -1652,7 +1550,7 @@ namespace Covid19Radar.Background.Protobuf
                         break;
                     case 10:
                         {
-                            if (!HasSignatureInfo)
+                            if (signatureInfo_ == null)
                             {
                                 SignatureInfo = new global::Covid19Radar.Background.Protobuf.SignatureInfo();
                             }
