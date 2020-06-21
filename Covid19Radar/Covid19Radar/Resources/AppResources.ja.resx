@@ -262,8 +262,8 @@
     <comment>引き続き「新しい生活様式」の実践をよろしくお願いいたします。</comment>
   </data>
   <data name="NotContactPageButtonText" xml:space="preserve">
-    <value>アプリを周りの人に知らせる</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <value>このアプリについて共有する</value>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="ThankYouNotifyOtherPageLabel1" xml:space="preserve">
     <value>陽性のご登録をいただきありがとうございました</value>
@@ -358,8 +358,8 @@
     <comment>陽性情報の登録</comment>
   </data>
   <data name="HomePageDescription5" xml:space="preserve">
-    <value>アプリを周りの人に知らせる</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <value>このアプリについて共有する</value>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="HomePageTitle1" xml:space="preserve">
     <value>ホーム</value>

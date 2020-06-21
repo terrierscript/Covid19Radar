@@ -291,7 +291,7 @@
   </data>
   <data name="NotContactPageButtonText" xml:space="preserve">
     <value>இந்தப் பயன்பாட்டைப் பகிர்</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="ThankYouNotifyOtherPageLabel1" xml:space="preserve">
     <value>உங்கள் சோதனை முடிவுகளை பதிவு செய்ததற்கு நன்றி!</value>
@@ -387,7 +387,7 @@
   </data>
   <data name="HomePageDescription5" xml:space="preserve">
     <value>இந்தப் பயன்பாட்டைப் பகிர்</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="HomePageTitle1" xml:space="preserve">
     <value>முகப்பு</value>

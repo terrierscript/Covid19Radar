@@ -291,7 +291,7 @@
   </data>
   <data name="NotContactPageButtonText" xml:space="preserve">
     <value>हे अॅप शेअर करा</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="ThankYouNotifyOtherPageLabel1" xml:space="preserve">
     <value>परीक्षेचा निकाल नोंदवल्याबद्दल धन्यवाद!</value>
@@ -387,7 +387,7 @@
   </data>
   <data name="HomePageDescription5" xml:space="preserve">
     <value>हे अॅप शेअर करा</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="HomePageTitle1" xml:space="preserve">
     <value>होम</value>

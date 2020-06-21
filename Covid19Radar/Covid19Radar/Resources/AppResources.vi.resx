@@ -291,7 +291,7 @@
   </data>
   <data name="NotContactPageButtonText" xml:space="preserve">
     <value>Chia sẻ ứng dụng này</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="ThankYouNotifyOtherPageLabel1" xml:space="preserve">
     <value>Cảm ơn bạn đã đăng ký kết quả thử nghiệm của bạn!</value>
@@ -387,7 +387,7 @@
   </data>
   <data name="HomePageDescription5" xml:space="preserve">
     <value>Chia sẻ ứng dụng này</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="HomePageTitle1" xml:space="preserve">
     <value>Trang chủ</value>

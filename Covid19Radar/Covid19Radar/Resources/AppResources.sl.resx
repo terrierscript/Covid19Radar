@@ -291,7 +291,7 @@
   </data>
   <data name="NotContactPageButtonText" xml:space="preserve">
     <value>Daj to aplikacijo v skupno rabo</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="ThankYouNotifyOtherPageLabel1" xml:space="preserve">
     <value>Zahvaljujemo se vam za registracijo rezultatov testov!</value>
@@ -387,7 +387,7 @@
   </data>
   <data name="HomePageDescription5" xml:space="preserve">
     <value>Daj to aplikacijo v skupno rabo</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="HomePageTitle1" xml:space="preserve">
     <value>Domača stran</value>

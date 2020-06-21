@@ -291,7 +291,7 @@
   </data>
   <data name="NotContactPageButtonText" xml:space="preserve">
     <value>שתף אפליקציה זו</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="ThankYouNotifyOtherPageLabel1" xml:space="preserve">
     <value>תודה על רישום תוצאות הבדיקה שלך!</value>
@@ -387,7 +387,7 @@
   </data>
   <data name="HomePageDescription5" xml:space="preserve">
     <value>שתף אפליקציה זו</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="HomePageTitle1" xml:space="preserve">
     <value>בית</value>

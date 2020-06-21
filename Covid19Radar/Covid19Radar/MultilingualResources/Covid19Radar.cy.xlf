@@ -379,7 +379,7 @@
         <trans-unit id="NotContactPageButtonText" translate="yes" xml:space="preserve">
           <source>Share this app</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Rhannu'r ap hwn</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">アプリを周りの人に知らせる</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">このアプリについて共有する</note>
         </trans-unit>
         <trans-unit id="ThankYouNotifyOtherPageLabel1" translate="yes" xml:space="preserve">
           <source>Thank you for registering your test results!</source>
@@ -499,7 +499,7 @@
         <trans-unit id="HomePageDescription5" translate="yes" xml:space="preserve">
           <source>Share this app</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Rhannu'r ap hwn</target>
-          <note from="MultilingualBuild" annotates="source" priority="2">アプリを周りの人に知らせる</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">このアプリについて共有する</note>
         </trans-unit>
         <trans-unit id="HomePageTitle1" translate="yes" xml:space="preserve">
           <source>Home</source>

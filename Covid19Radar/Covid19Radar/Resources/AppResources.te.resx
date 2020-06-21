@@ -291,7 +291,7 @@
   </data>
   <data name="NotContactPageButtonText" xml:space="preserve">
     <value>ఈ అనువర్తనాన్ని భాగస్వామ్యం చేయండి</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="ThankYouNotifyOtherPageLabel1" xml:space="preserve">
     <value>మీ టెస్ట్ ఫలితాలను రిజిస్టర్ చేసుకున్నందుకు ధన్యవాదాలు!</value>
@@ -387,7 +387,7 @@
   </data>
   <data name="HomePageDescription5" xml:space="preserve">
     <value>ఈ అనువర్తనాన్ని భాగస్వామ్యం చేయండి</value>
-    <comment>アプリを周りの人に知らせる</comment>
+    <comment>このアプリについて共有する</comment>
   </data>
   <data name="HomePageTitle1" xml:space="preserve">
     <value>హోమ్</value>
